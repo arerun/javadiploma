@@ -1,0 +1,65 @@
+Calculate Total Student 
+   Prompt user for grade 
+   Get grade
+
+   total A=0 
+   total B=0 
+   total C=0 
+   total D=0 
+   total F=0
+   student = 1 
+     
+   
+  
+   DOWHILE student <=30
+   
+   CASE OF grade
+
+   CASE'A' : 
+          totalA = totalA + 1
+ 
+   BREAK
+ 
+   CASE'B' : 
+          totalB = totalB + 1
+ 
+   BREAK 
+   
+   CASE'C' : 
+          totalC = totalC + 1
+ 
+   BREAK 
+  
+   CASE'D': 
+          totalD = totalD + 1
+ 
+   BREAK
+   
+   CASE'F' : 
+          totalF = totalF + 1
+ 
+   BREAK  
+ 
+ END CASE 
+ student = student +1
+ END DO          
+ Display totalA
+ Display totalB
+ Display totalC
+ Display totalD
+ Display totalF
+END 
+
+ 
+  
+   
+     
+          
+          
+          
+           
+          
+          
+         
+ 
+             
